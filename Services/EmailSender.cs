@@ -35,7 +35,7 @@ namespace Huertos_Autosustentables_PI.Services
             };
             msg.AddTo(new EmailAddress(email));
 
-            // Disable click tracking.
+            // Disable click tracking..
             // See https://sendgrid.com/docs/User_Guide/Settings/tracking.html
 
             msg.SetClickTracking(true, true);

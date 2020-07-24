@@ -5,7 +5,6 @@ using System.Threading.Tasks;
 
 namespace Huertos_Autosustentables_PI.Services
 {
-    
     public class AuthMessageSenderOptions
     {
         public string SendGridUser { get; set; }

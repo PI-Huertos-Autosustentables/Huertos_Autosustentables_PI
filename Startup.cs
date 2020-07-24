@@ -35,7 +35,7 @@ namespace Huertos_Autosustentables_PI
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
-            //Verificacion de Correo Electronico linea(36-40)
+            // Verificacion de Correo Electronico linea(36-40)
             // using Microsoft.AspNetCore.Identity.UI.Services;
             // using WebPWrecover.Services;
             services.AddTransient<IEmailSender, EmailSender>();
