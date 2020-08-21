@@ -28,7 +28,7 @@ namespace Huertos_Autosustentables_PI.Services
             var client = new SendGridClient(apiKey);
             var msg = new SendGridMessage()
             {
-                From = new EmailAddress("jhonacosta99@outlook.es", Options.SendGridUser),
+                From = new EmailAddress("javmold15@homtail.com", Options.SendGridUser),
                 Subject = subject,
                 PlainTextContent = message,
                 HtmlContent = message
