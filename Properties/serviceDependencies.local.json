@@ -3,6 +3,14 @@
     "mssql1": {
       "type": "mssql.local",
       "connectionId": "DefaultConnection"
+    },
+    "mssql2": {
+      "type": "mssql.local",
+      "connectionId": "Huertos_Autosustentables_PIContext"
+    },
+    "mssql3": {
+      "type": "mssql.local",
+      "connectionId": "DataContext"
     }
   }
 }

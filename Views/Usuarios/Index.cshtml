@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Huertos_Autosustentables_PI.Models.Region>
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreRegiones)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CaracterisitcasRegiones)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdClima)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NombreRegiones)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CaracterisitcasRegiones)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdClima)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

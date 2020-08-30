@@ -17,6 +17,7 @@ namespace Huertos_Autosustentables_PI.Controllers
     {
         private readonly ApplicationDbContext _context;
 
+        //sirve para traer los dato del usuario
         UserManager<IdentityUser> _userManager;
 
         public DetallesController(ApplicationDbContext context, UserManager<IdentityUser> userManager)
